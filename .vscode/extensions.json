@@ -1,0 +1,10 @@
+{
+  "// Nota": "VS Code sugerirá instalar estas extensiones al abrir la carpeta del taller.",
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.datawrangler",
+    "mechatroner.rainbow-csv",
+    "ms-ceintl.vscode-language-pack-es"
+  ]
+}

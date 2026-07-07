@@ -73,15 +73,40 @@ ve a **Problemas comunes → "python no se reconoce"**.
 
 ## Paso 3 — Instalar las extensiones de VS Code
 
-Dentro de VS Code:
+Las extensiones son complementos que le dan a VS Code la capacidad de abrir,
+ver y ejecutar los notebooks.
 
-1. En la barra lateral izquierda, haz clic en el ícono de **Extensiones**
-   (parecen 4 cuadritos, o presiona `Ctrl+Shift+X`).
-2. En el buscador escribe **"Python"** e instala la extensión oficial de
-   **Microsoft** (la que dice *Python* con más descargas). Clic en **Install**.
-3. Busca **"Jupyter"** e instala también la extensión oficial de **Microsoft**.
+Para instalar cada una: en la barra lateral izquierda haz clic en el ícono de
+**Extensiones** (parecen 4 cuadritos, o presiona `Ctrl+Shift+X`), busca el
+nombre o el **ID**, y haz clic en **Install**.
 
-Con estas dos extensiones, VS Code ya puede abrir y ejecutar notebooks (`.ipynb`).
+> 💡 **Atajo:** si abriste la carpeta del taller en VS Code, aparecerá una
+> notificación abajo a la derecha que dice *"Do you want to install the
+> recommended extensions?"* → haz clic en **Install** y se instalan las
+> recomendadas de golpe.
+
+### Esenciales (sin estas, los notebooks NO corren)
+
+| Extensión | ID (para buscarla) | Para qué sirve |
+|-----------|--------------------|----------------|
+| **Python** | `ms-python.python` | El "motor". Ejecuta Python y detecta tu entorno `.venv`. |
+| **Jupyter** | `ms-toolsai.jupyter` | Permite abrir y ejecutar los archivos `.ipynb`. |
+
+Al instalar esas **dos**, VS Code descarga automáticamente sus componentes:
+`Pylance` (autocompletado), `Python Debugger`, `Jupyter Keymap`,
+**`Jupyter Notebook Renderers`** (dibuja las **gráficas** y las tablas),
+`Jupyter Cell Tags` y `Jupyter Slide Show`. No necesitas instalarlos aparte.
+
+### Recomendadas (opcionales, muy útiles en este curso)
+
+| Extensión | ID | Por qué ayuda |
+|-----------|-----|---------------|
+| **Data Wrangler** | `ms-toolsai.datawrangler` | Ver los datos como una hoja de Excel, con filtros y estadísticas. |
+| **Rainbow CSV** | `mechatroner.rainbow-csv` | Colorea las columnas de `ventas.csv` para leerlo fácil. |
+| **Spanish Language Pack** | `ms-ceintl.vscode-language-pack-es` | Pone la interfaz de VS Code en español. |
+
+Con las dos esenciales instaladas, VS Code ya puede abrir y ejecutar los
+notebooks (`.ipynb`) del taller.
 
 ---
 

@@ -11,7 +11,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Configuración de editores / SO
-.vscode/
+# Ignoramos .vscode/ EXCEPTO las extensiones recomendadas (útiles para el taller)
+.vscode/*
+!.vscode/extensions.json
 .DS_Store
 
 # Carpetas internas de planeación (no forman parte del material del taller)
