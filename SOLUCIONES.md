@@ -16,9 +16,34 @@ modulo-*/soluciones.ipynb
 Esto significa que, al crear el repo público y subir el material, **las
 soluciones NO se publican** — aunque existan en la copia local del instructor.
 
-## Cómo liberarlas (instructor), después de la sesión de retos
+## ✅ Forma recomendada: el script automatizado
 
-Elige **una** de estas dos opciones:
+Usa **[`publicar_soluciones.sh`](publicar_soluciones.sh)**, que hace todo por ti
+(verifica que las soluciones corren y las publica). Lo puede correr el instructor
+o cualquier persona con acceso al repo, **después** de la sesión de retos:
+
+```bash
+# Publicar en la rama 'soluciones' (por defecto):
+./publicar_soluciones.sh
+
+# Sin pedir confirmación (ejecución automática):
+./publicar_soluciones.sh rama -y
+
+# Como GitHub Release con un ZIP (requiere gh CLI):
+./publicar_soluciones.sh release
+
+# Ver la ayuda:
+./publicar_soluciones.sh --help
+```
+
+El script: (1) comprueba que existan las soluciones, (2) intenta ejecutarlas para
+confirmar que pasan, (3) pide confirmación y (4) las publica por el método elegido.
+
+---
+
+## Cómo liberarlas manualmente (alternativa)
+
+Si prefieres hacerlo a mano, elige **una** de estas dos opciones:
 
 ### Opción A — Rama `soluciones` (recomendada para quien usa git)
 ```bash
