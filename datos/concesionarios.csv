@@ -1,0 +1,21 @@
+id_concesionario,nombre,region,ciudad,gerente
+1,Ford Monterrey Centro,Norte,Monterrey,Ana Torres
+2,Ford San Nicolás,Norte,San Nicolás,Luis Guzmán
+3,Ford Saltillo,Norte,Saltillo,María Peña
+4,Ford Torreón,Norte,Torreón,Jorge Ríos
+5,Ford CDMX Reforma,Centro,Ciudad de México,Sofía Navarro
+6,Ford Satélite,Centro,Naucalpan,Carlos Méndez
+7,Ford Toluca,Centro,Toluca,Diana Flores
+8,Ford Querétaro,Centro,Querétaro,Raúl Salas
+9,Ford Puebla,Centro,Puebla,Patricia Lara
+10,Ford Guadalajara Sur,Occidente,Guadalajara,Miguel Ángel Ruiz
+11,Ford Zapopan,Occidente,Zapopan,Laura Campos
+12,Ford León,Occidente,León,Héctor Vega
+13,Ford Aguascalientes,Occidente,Aguascalientes,Gabriela Ortiz
+14,Ford Morelia,Occidente,Morelia,Fernando Cano
+15,Ford Mérida,Sureste,Mérida,Rosa Aguilar
+16,Ford Cancún,Sureste,Cancún,Tomás Bravo
+17,Ford Veracruz,Sureste,Veracruz,Elena Ramos
+18,Ford Villahermosa,Sureste,Villahermosa,Óscar Domínguez
+19,Ford Tuxtla,Sureste,Tuxtla Gutiérrez,Verónica Islas
+20,Ford Oaxaca,Sureste,Oaxaca,Andrés Cruz

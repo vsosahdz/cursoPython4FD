@@ -1,0 +1,24 @@
+# Entorno virtual (cada participante crea el suyo con: python -m venv .venv)
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Configuración de editores / SO
+.vscode/
+.DS_Store
+
+# Carpetas internas de planeación (no forman parte del material del taller)
+openspec/
+.claude/
+
+# --- Liberación diferida de soluciones ---
+# Las soluciones NO se publican en el material inicial (ver SOLUCIONES.md).
+# Se liberan después vía rama 'soluciones' o GitHub Release.
+modulo-*/soluciones.ipynb

@@ -1,0 +1,10 @@
+# Python for Ford 2026 — librerías del taller
+# Instalar con:  pip install -r requirements.txt
+#
+# Nota: se usa venv + pip (NO Anaconda). Ver modulo-0-instalacion/guia_instalacion.md
+
+pandas>=2.2,<4.0
+matplotlib>=3.8,<4.0
+duckdb>=1.0,<2.0
+jupyter>=1.0
+ipykernel>=6.29
