@@ -20,6 +20,9 @@ __pycache__/
 openspec/
 .claude/
 
+# Material privado del instructor (NO publicar)
+_instructor/
+
 # --- Liberación diferida de soluciones ---
 # Las soluciones NO se publican en el material inicial (ver SOLUCIONES.md).
 # Se liberan después vía rama 'soluciones' o GitHub Release.
